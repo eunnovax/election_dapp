@@ -35,7 +35,7 @@ contract Election {
 		//if (_commitPhaseLengthInSeconds < 30) {
         //    throw;
         //}
-		_commitPhaseLengthInSeconds = 120;
+		_commitPhaseLengthInSeconds = 21600;
 		//currentTime = now;
 		commitPhaseEndTime = now + _commitPhaseLengthInSeconds * 1 seconds;
 		addCandidate("Ordabayev Aidos");
