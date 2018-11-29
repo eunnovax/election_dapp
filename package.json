@@ -6,9 +6,9 @@
     "test": "test"
   },
   "scripts": {
-    "start": "npm run test",
+    "start": "node app.js",
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lite-server"
   },
   "author": "",
   "license": "ISC",
