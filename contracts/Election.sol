@@ -38,10 +38,10 @@ contract Election {
 		_commitPhaseLengthInSeconds = 71000;
 		//currentTime = now;
 		commitPhaseEndTime = now + _commitPhaseLengthInSeconds * 1 seconds;
-		addCandidate("Kassymkhan Nazerke");
-		addCandidate("Zhenisova Damira");
-		addCandidate("Smagulov Almaz");
-		addCandidate("Tursunova Kamila");
+		addCandidate("candidate1");
+		addCandidate("candidate2");
+		addCandidate("candidate3");
+		addCandidate("candidate4");
 	}
 
 	function addCandidate (string _name) private {
